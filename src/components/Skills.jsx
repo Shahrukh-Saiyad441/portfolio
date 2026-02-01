@@ -19,7 +19,7 @@ const Skills = () => {
     },
     {
       title: "Tools & Technologies",
-      skills: ["Git", "Docker", "Postman", "Jupyter", "VS Code", "gTest", "Jira", "Linux", "RESTful APIs", "JWT Auth", "Redis", "AJAX", "JSON", "Microsoft Office"],
+      skills: ["Git", "Docker", "Postman", "Jupyter", "VS Code", "qTest", "Jira", "Linux", "RESTful APIs", "JWT Auth", "Redis", "AJAX", "JSON", "Microsoft Office"],
       gradient: "gradient-4"
     }
   ];
