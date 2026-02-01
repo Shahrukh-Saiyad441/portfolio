@@ -23,11 +23,11 @@ const Hero = () => {
           <h1 className="hero-name">
             <span className="gradient-text">Shahrukh Saiyad</span>
           </h1>
-          <h2 className="hero-title">CS Undergrad | Software Engineer</h2>
+          <h2 className="hero-title">Master’s in CS | Full Stack Developer | Software Engineer</h2>
           <p className="hero-description">
-            An exceptionally creative individual pursuing BE in Computer Science, 
-            seeking internship experience in software design. Passionate about 
-            building innovative solutions and gaining professional experience.
+            An exceptionally creative individual with a Master’s in Computer Science, 
+            and a Full Stack Developer, seeking internship or professional experience in software design. 
+            Passionate about building innovative solutions and applying full-stack development skills in real-world projects.
           </p>
           <div className="hero-buttons">
             <button 

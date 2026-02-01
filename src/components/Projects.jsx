@@ -5,7 +5,7 @@ const Projects = () => {
   const projects = [
     {
       title: "FinStream",
-      period: "2024 - Present",
+      period: " Sept 2025 - Dec 2025",
       description: "Real-time Financial Monitoring & Risk Management Platform that integrates livestock price feeds, fraud detection, and risk forecasting into a single, scalable platform for traders, financial institutions, and compliance teams.",
       technologies: ["Java", "Quarkus", "Apache Kafka", "PostgreSQL", "AWS", "WebSockets", "React.js"],
       highlights: [
@@ -19,7 +19,7 @@ const Projects = () => {
     },
     {
       title: "Presentation Administrating Tool",
-      period: "November 2021 - May 2022",
+      period: "Nov 2021 - May 2022",
       description: "Python-based application that enhances presentation experience by allowing users to control slides using hand gestures. Provides hands-free slide control with accurate hand tracking using computer vision techniques.",
       technologies: ["Python", "OpenCV", "Mediapipe", "PyAutoGUI"],
       highlights: [
@@ -32,7 +32,7 @@ const Projects = () => {
     },
     {
       title: "PostgreSQL Transaction Management System",
-      period: "2023",
+      period: "Apr 2024 - May 2024",
       description: "Java-based application implementing comprehensive transaction management in PostgreSQL, ensuring data integrity and consistency through proper ACID properties and transaction control mechanisms.",
       technologies: ["Java", "PostgreSQL", "JDBC", "Gradle"],
       highlights: [
@@ -45,7 +45,7 @@ const Projects = () => {
     },
     {
       title: "Ordelo | Full-Stack System Development",
-      period: "February 2025 - May 2025",
+      period: "Feb 2025 - May 2025",
       description: "Developed a full-stack application that allows users to search recipes, generate ingredient lists, and add items to a cart for ordering from selected stores.",
       technologies: ["Go", "React", "JavaScript", "MongoDB", "Redis", "Docker", "Linux"],
       highlights: [
@@ -58,16 +58,18 @@ const Projects = () => {
     },
     {
       title: "Xero Application Testing",
-      period: "February 2025 - May 2025",
-      description: "Executed comprehensive testing for Xero application, ensuring quality and reliability through systematic test case execution and defect management.",
-      technologies: ["Testing", "Jira", "Documentation", "Test Planning"],
+      period: "Feb 2025 - May 2025",
+      description: "Performed comprehensive software testing on the existing Xero application, ensuring quality and reliability through structured test execution and defect reporting.",
+      technologies: ["Software Testing", "Jira", "qTest", "Excel", "PowerPoint", "Test Documentation", "Test Planning"],
       highlights: [
-        "Executed 50+ functional and integration test cases",
-        "Documented defects with clear reproduction steps",
-        "Built traceability matrices and test summary reports covering 100% of critical scenarios",
-        "Collaborated with developers during peer reviews to resolve defects"
+        "Executed 50+ functional and integration test cases on an existing application using qTest",
+        "Reported defects with detailed reproduction steps, severity classifications, and tracked resolution status",
+        "Developed traceability matrices and test summary reports using Excel and PowerPoint",
+        "Validated software behavior against requirements to ensure coverage of all critical scenarios",
+        "Applied best practices in software testing and development, enhancing QA skills and knowledge",
+        "Reviewed test results independently to identify patterns and potential areas of improvement in the application"
       ]
-    }
+    } 
   ];
 
   return (

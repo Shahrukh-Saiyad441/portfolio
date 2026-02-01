@@ -7,15 +7,15 @@ const About = () => {
       <div className="about-content">
         <div className="about-text">
           <p className="about-description">
-            I am an exceptionally creative individual pursuing BE in Computer Science, 
-            seeking internship experience in software design. I'm passionate about 
-            developing innovative solutions and want to have hands-on experience in 
-            software design and development.
+            I am an exceptionally creative individual with a Master's in Computer Science, 
+            and a Full Stack Developer, seeking internship or professional experience in software design. 
+            Passionate about developing innovative solutions and gaining hands-on experience in 
+            full-stack software development.
           </p>
           <p className="about-description">
-            Currently seeking the role of Software Engineer at any growth-oriented 
-            company to incorporate my knowledge of software designing and development 
-            to meet clients' specifications and gain professional experience alongside.
+            Currently seeking the role of Software Engineer at a growth-oriented company 
+            where I can apply my knowledge of software designing and development to meet 
+            clients' specifications while continuing to expand my professional expertise.
           </p>
           <div className="about-details">
             <div className="detail-item">
@@ -59,4 +59,3 @@ const About = () => {
 };
 
 export default About;
-

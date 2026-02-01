@@ -71,12 +71,15 @@ const Contact = () => {
             <div className="interests">
               <h4>Interests</h4>
               <div className="interest-tags">
-                <span>Game Development</span>
-                <span>Beta Testing</span>
+                <span>Full Stack Development</span>
+                <span>Web Development</span>
+                <span>Software Testing</span>
                 <span>AR/VR</span>
+                <span>Game Development</span>
                 <span>Cricket</span>
-                <span>Snooker</span>
-                <span>Chess</span>
+                <span>Pickleball</span>
+                <span>Tennis</span>
+                <span>AI & Machine Learning</span>
               </div>
             </div>
           </div>
