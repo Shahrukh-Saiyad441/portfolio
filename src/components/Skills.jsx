@@ -49,7 +49,13 @@ const Skills = () => {
             <span>Adaptability</span>
             <span>Creativity</span>
             <span>Work Ethics</span>
+            <span>Problem Solving</span>
+            <span>Communication</span>
+            <span>Teamwork</span>
+            <span>Attention to Detail</span>
+            <span>Critical Thinking</span>
           </div>
+
         </div>
       </div>
     </section>
