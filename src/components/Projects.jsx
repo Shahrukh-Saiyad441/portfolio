@@ -8,6 +8,7 @@ const Projects = () => {
       period: " Sept 2025 - Dec 2025",
       description: "Real-time Financial Monitoring & Risk Management Platform that integrates livestock price feeds, fraud detection, and risk forecasting into a single, scalable platform for traders, financial institutions, and compliance teams.",
       technologies: ["Java", "Quarkus", "Apache Kafka", "PostgreSQL", "AWS", "WebSockets", "React.js"],
+      url: "https://fin-stream-nu.vercel.app",
       highlights: [
         "Built event-driven, high-throughput streaming architecture for real-time financial data processing",
         "Implemented fraud detection and risk forecasting capabilities",
@@ -83,6 +84,20 @@ const Projects = () => {
               <span className="project-period">{project.period}</span>
             </div>
             <p className="project-description">{project.description}</p>
+            {project.url && (
+              <div className="project-links">
+                <a 
+                  href={project.url} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="project-link"
+                  aria-label={`Visit ${project.title}`}
+                >
+                  <FaExternalLinkAlt />
+                  <span>Visit Live Site</span>
+                </a>
+              </div>
+            )}
             <div className="project-technologies">
               {project.technologies.map((tech, techIndex) => (
                 <span key={techIndex} className="tech-tag">{tech}</span>
